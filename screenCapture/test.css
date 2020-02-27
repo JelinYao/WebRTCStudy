@@ -1,0 +1,17 @@
+
+.button_class{
+    margin-left: 10px;
+    width: 120px;
+    height: 42px;
+    color: aliceblue;
+    background-color: yellowgreen;
+    font-size: 18;
+}
+
+.video_class{
+    display: block;
+    width: 960px;
+    height: auto;
+    clear: both;
+    margin: 0 auto;
+}

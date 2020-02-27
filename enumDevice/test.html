@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="test.js" ></script>
+        <style>
+            .label_class{
+                text-overflow: ellipsis;
+                display: -webkit-box;
+                -webkit-line-clamp: 2;
+                -webkit-box-orient: vertical;
+            }
+            .td_head_class{
+                font-size: 20px;
+                font-weight: bold;
+                
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <label class="label_class" id="content">展示当前系统连接的设备信息：</label>
+        </div>
+        <div style="margin-top: 12px;">
+            <table id="devices_table" border="1">
+                <tr>
+                    <td class="td_head_class" style="width: 40px;">序号</td>
+                    <td class="td_head_class" style="width: 100px;">类型</td>
+                    <td class="td_head_class" style="width: 300px;">deviceId</td>
+                    <td class="td_head_class" style="width: 300px;">groupId</td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>
