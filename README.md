@@ -21,6 +21,11 @@ WebRTC于2011年6月1日开源并在Google、Mozilla、Opera支持下被纳入�
 ![](https://raw.githubusercontent.com/JelinYao/WebRTCStudy/master/screenCapture/screen.png)
 为什么会有窗口不听在内部无线展示？因为当前窗口实时绘制到当前屏幕中，屏幕一直在动，就会不听绘制。
 
+### 3、实时视频捕获
+使用navigator.mediaDevices.getDisplayMedia()接口实时捕获视频画面和声音，播放视频和声音
+
+![](https://raw.githubusercontent.com/JelinYao/WebRTCStudy/master/videoCapture/screen.png)
+
 ## 一些网址
 官网：https://www.webrtc.org/ （被墙了，很无奈...）
 
